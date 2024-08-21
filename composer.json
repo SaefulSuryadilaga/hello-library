@@ -1,0 +1,19 @@
+{
+    "name": "sasuga/composer-library",
+    "description": "Sample Composer Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sasuga\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saeful Surya Dilaga",
+            "email": "suryasaeful@yahoo.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
